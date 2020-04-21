@@ -384,7 +384,7 @@ export class DashboardComponent implements OnInit {
 
 
 
-    var chart_labels = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+    var chart_labels = ['AGE 0-5', 'AGE 5-10', 'AGE 10-20', 'AGE 20-30', 'AGE 30-40', 'AGE 40-50', 'AGE 50-60', 'AGE 60-70', 'AGE 70-80', 'AGE 80-90', 'AGE 90-100', 'AGE 100+'];
     this.datasets = [
       [100, 70, 90, 70, 85, 60, 75, 60, 90, 80, 110, 100],
       [80, 120, 105, 110, 95, 105, 90, 100, 80, 95, 70, 120],
